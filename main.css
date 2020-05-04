@@ -6,8 +6,7 @@
 
 body {
     background-color: rgb(204, 203, 203);
-    margin: 40px 20px;
-    color: rgb(46, 45, 45);
+    color: rgb(8, 6, 6);
 }
 
 nav {
@@ -28,7 +27,7 @@ p {
 .white-bg {
     height: 400px;
     background-color: white;
-    margin: 20px 10px;
+    margin: 20px 6rem 10px 6rem;
 }
 
 .img {
@@ -38,4 +37,35 @@ p {
 .timeline {
     text-align: center;
     margin: 55px 0 45px 0;
+}
+
+ul {
+    margin-top: 3rem;
+    max-width: 900px;
+    text-align: center;
+}
+
+ul li {
+    text-align: center;
+    margin-left: 24rem;
+    line-height: 1.7;
+}
+
+.quote {
+    max-width: 920px;
+    text-align: center;
+    margin-left: 10rem;
+    margin-top: 4rem;
+}
+
+footer {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+footer p {
+    color: black;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
 }
